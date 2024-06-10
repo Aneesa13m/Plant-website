@@ -1,0 +1,70 @@
+body /*{
+    /*/background-color: rgb(255, 250, 217);
+
+} */
+
+body nav{
+    height: 10vh;
+
+
+}
+
+.bg-success {
+    --bs-bg-opacity: 0.5;
+}
+
+.navbar-items{
+    font-size: 20px;;
+}
+
+.columns-container{
+    height: 90vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+
+}
+
+.title-container{
+    width: 80%;
+    margin: 20% auto;
+}
+
+h1{
+    font-size: 65px;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+.my-column{
+    /*border: 3px solid black;*/
+    height: 100%;
+
+}
+
+.slides-container{
+    height: 100%;
+    overflow: hidden;
+}
+
+.plant-pic{
+    width:100%;
+    margin: 10px 0;
+}
+
+.logos-slide {
+    animation: 8s slide infinite linear;
+}
+
+@keyframes slide{
+    from{
+        transform: translateY(0)
+    }
+    to{
+        transform: translateY(-100%)
+    }
+}
